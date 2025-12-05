@@ -1,55 +1,86 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "'We build on top of giant's shoulders', quote that evoques our biggest strenght as society"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+This website is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+In appreciation to my friends and family that keept me pusrsuing power through knowledge 
 
-A data-driven personal website
+Please explore my code journey from several years in the practice as a code enthusiast and crypto advocat, evolving as part of the engine that maintains the storage servers and later as a Web3 specialist in aims to bring crypto and descentralized finance to the people  
+
+ Credits to [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose
+ Fork [this template](https://github.com/academicpages/academicpages.github.io)
+
+
+My Journey: From Electronics Engineering to Web3 Development
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My path into technology began at the [Universidad Distrital Francisco José de Caldas](https://www.udistrital.edu.co/), where I studied Electronics and Communications Engineering from 2010 to 2016. This foundation gave me a deep understanding of how systems communicate—knowledge that would prove invaluable as I transitioned into IT infrastructure and eventually blockchain technology.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+From Enterprise Data to Decentralized Systems
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
+In 2018, I joined [Sutherland Global Services](https://www.sutherlandglobal.com/) as a **NetApp Support Engineer L1**, where I provided specialized support for [NetApp ONTAP](https://www.netapp.com/ontap-data-management-software/) systems (versions 7, 8, and 9). This role immersed me in the world of enterprise data management—data protection, virtualization, and storage architecture. I engineered test environments using SAN/NAS architecture, worked with [VMware](https://www.vmware.com/) and [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/) hypervisors, and troubleshot high-priority performance issues following strict ETA guidelines.
+
+Working with enterprise storage taught me that **data integrity and availability are everything**—principles that directly translate to blockchain's immutable ledger philosophy. The experience of managing distributed storage systems gave me intuition for how decentralized networks maintain consensus and redundancy.
+
+Building Digital Infrastructure at BOSONS SAS
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+In August 2020, I transitioned to **BOSONS SAS** as an IT Engineer & Security Specialist. Here, I took ownership of the company's entire digital infrastructure, managing a multiplatform online presence that includes:
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+- **[WordPress](https://wordpress.org/)** deployments on [Apache Server](https://httpd.apache.org/)
+- Security management through [WHM](https://www.cpanel.net/products/whm/) and [cPanel](https://cpanel.net/)
+- [SQL](https://www.mysql.com/) database administration
+- [Kali Linux](https://www.kali.org/) for security testing and vulnerability assessments
 
-How to edit your site's GitHub repository
+This role sharpened my security mindset—maintaining server integrity, preventing malware attacks, managing SSL certificates, and ensuring 24/7 website availability. I also developed the ability to translate complex blockchain and technology topics into accessible explanations for customers, a skill that would become central to my Web3 advocacy work.
+
+The Leap into Web3: STACKIT.AI
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+In 2023, my journey culminated in joining [STACKIT.AI](https://stackit.ai/) as a **Front-end Associate & Local Advocate**. This Web3 project represents the convergence of all my previous experience:
+
+- **UI/UX Development**: I refined and enhanced the decentralized application's design system, implementing modern styling frameworks with [React](https://reactjs.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), ensuring responsive design across devices
+- **Smart Contract Integration**: Leveraging [Solidity](https://docs.soliditylang.org/) knowledge to bridge complex blockchain logic with intuitive user interfaces
+- **Community Building**: Serving as regional advocate, organizing local developer meetups and promoting adoption across Latin America
+- **Brand Consistency**: Establishing cohesive visual identity while maintaining Web3 aesthetic principles
+
+The decentralized finance (DeFi) space demands both technical precision and the ability to communicate complex concepts clearly—skills I've honed across every role in my career.
+
+Technical Arsenal
+------
+
+My toolkit has evolved to encompass both traditional development and Web3-specific technologies:
+
+| Category | Technologies |
+|----------|-------------|
+| **Blockchain** | [Solidity](https://docs.soliditylang.org/), Smart Contracts, [Web3.js](https://web3js.readthedocs.io/), DeFi Protocols |
+| **Frontend** | [React](https://reactjs.org/), JavaScript, HTML/CSS, Responsive Design |
+| **Backend** | [Python](https://www.python.org/), [Node.js](https://nodejs.org/), SQL, [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) |
+| **Infrastructure** | [VMware](https://www.vmware.com/), [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/), Apache, Data ONTAP |
+| **Security** | [Kali Linux](https://www.kali.org/), Penetration Testing, SSL/TLS, Security Audits |
+| **Tools** | [LaTeX](https://www.latex-project.org/), [AutoCAD](https://www.autodesk.com/products/autocad/), [MATLAB](https://www.mathworks.com/products/matlab.html), Adobe Suite |
+
+Continuous Learning
+------
+
+Following the path of knowledge, I've invested in key skills that open doors to global opportunities:
+
+- [Blockchain Fundamentals](https://www.coursera.org/courses?query=free&skills=Blockchain) — Understanding mining, consensus mechanisms, and real-world use cases
+- [English Proficiency](https://cert.efset.org/N9d4c4) — Reaching C1/C2 level to communicate effectively in international tech communities
+- [NetApp ONTAP Certification](https://www.netapp.com/ontap-data-management-software/) — Enterprise-grade data management and virtualization expertise
+
+I'm also proficient in Portuguese and studying Japanese (N5 level), which helps me connect with diverse blockchain communities worldwide.
+
+
+Example: Google auth Login with JAVA code examples and some personal longterm projects alongside with an AI assistant powered by GPT5
+![Editing a Markdown file for a talk](/images/editing-talk.png?v=2) -[Test the Demo V0.5](https://github.com/titanioco/Proyectos-Backup/tree/version_0.5)
 
 For more info
 ------
