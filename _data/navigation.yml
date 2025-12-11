@@ -9,25 +9,22 @@
 
 main:
   - title: "Publications"
-    url: https://titanioco.github.io/publications/
+    url: /publications/
 
   - title: "Talks"
-    url: https://titanioco.github.io/talks/    
+    url: /talks/
 
   - title: "Teaching"
-    url: https://titanioco.github.io/teaching/    
-    
+    url: /teaching/
+
   - title: "Portfolio"
-    url: https://titanioco.github.io/portfolio/
-        
+    url: /portfolio/
+
   - title: "Blog Posts"
-    url: https://titanioco.github.io/year-archive/
-    
+    url: /year-archive/
+
   - title: "CV"
-    url: https://titanioco.github.io/cv/
-    
-  # - title: "CV"
-  #   url: https://titanioco.github.io/cv-json/
-    
+    url: /cv/
+
   - title: "Guide"
-    url: https://titanioco.github.io/markdown/
+    url: /markdown/
