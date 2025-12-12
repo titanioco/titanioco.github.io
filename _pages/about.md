@@ -22,6 +22,8 @@ My Journey: From Electronics Engineering to Web3 Development
 
 My path into technology began at the [Universidad Distrital Francisco José de Caldas](https://www.udistrital.edu.co/), where I studied Electronics and Communications Engineering from 2010 to 2016. This foundation gave me a deep understanding of how systems communicate—knowledge that would prove invaluable as I transitioned into IT infrastructure and eventually blockchain technology.
 
+During my studies, I worked with [COBOL Ingeniería SAS](https://cobol.com.co/), a Colombian technology solutions provider, where I specialized in e-commerce development and sales consulting. I captured client requirements, designed virtual store platforms, and closed deals with potential leads by translating their business needs into effective digital solutions.
+
 From Enterprise Data to Decentralized Systems
 ------
 
@@ -44,7 +46,7 @@ This role sharpened my security mindset—maintaining server integrity, preventi
 The Leap into Web3: STACKIT.AI
 ------
 
-In 2023, my journey culminated in joining [STACKIT.AI](https://stackit.ai/) as a **Front-end Associate & Local Advocate**. This Web3 project represents the convergence of all my previous experience:
+In 2024, my journey culminated in joining [STACKIT.AI](https://stackit.ai/) as a **Front-end Associate & Local Advocate**. This Web3 project represents the convergence of all my previous experience:
 
 - **UI/UX Development**: I refined and enhanced the decentralized application's design system, implementing modern styling frameworks with [React](https://reactjs.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), ensuring responsive design across devices
 - **Smart Contract Integration**: Leveraging [Solidity](https://docs.soliditylang.org/) knowledge to bridge complex blockchain logic with intuitive user interfaces

@@ -1,8 +1,8 @@
 ---
 title: "Java Application with Google Auth"
-collection: publications
+collection: colaborations
 category: manuscripts
-permalink: /publication/JAVA-application-with-Google-Auth
+permalink: /colaboration/JAVA-application-with-Google-Auth
 excerpt: 'This is a project involving study of Data Estructures.'
 date: 2025-12-09
 venue: 'Github'
