@@ -1,10 +1,12 @@
 # Base image: Ruby with necessary dependencies for Jekyll
-FROM node:18-alpine
-#
+FROM ruby:3.2-slim
+
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
+    npm \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 
